@@ -62,7 +62,7 @@ class Archer extends Character {
     bool isCrit = Random().nextDouble() < critChance;
     int base = 10 + Random().nextInt(11);
     if (isCrit) {
-      print(' 💥 Критический удар!')ж
+      print(' 💥 Критический удар!');
       return (base * 2.5).round();
     }
     return base;
